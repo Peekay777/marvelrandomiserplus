@@ -8,11 +8,12 @@ import (
 )
 
 type Cli struct {
-	filename string
+	filename       string
+	numberOfHeroes int
 }
 
 func NewCli(filename string) *Cli {
-	return &Cli{filename: filename}
+	return &Cli{filename: filename, numberOfHeroes: 1}
 }
 
 func (cli *Cli) Start() {
@@ -26,9 +27,10 @@ func (cli *Cli) Start() {
 	failOnError(err, 2)
 	modulars := r.RemainingModulars(scheme)
 	sets := r.RandomSets(scheme, modulars)
+	heroes := r.RandomHeroes(cli.numberOfHeroes)
 
 	// display results
-	ShowResults(scheme, *sets)
+	ShowResults(scheme, *sets, *heroes)
 }
 
 func failOnError(err error, code int) {

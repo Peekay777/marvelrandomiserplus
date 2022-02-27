@@ -400,5 +400,129 @@
             "modularId": 31,
             "modularName": "Infinity Gauntlets"
         }
+    ],
+    "heroes":[
+        {
+            "heroId": 1,
+            "heroName": "Spider-Man"
+        },
+        {
+            "heroId": 2,
+            "heroName": "Captain Marvel"
+        },
+        {
+            "heroId": 3,
+            "heroName": "She-Hulk"
+        },
+        {
+            "heroId": 4,
+            "heroName": "Iron Man"
+        },
+        {
+            "heroId": 5,
+            "heroName": "Black Panther"
+        },
+        {
+            "heroId": 6,
+            "heroName": "Captain America"
+        },
+        {
+            "heroId": 7,
+            "heroName": "Ms. Marvel"
+        },
+        {
+            "heroId": 8,
+            "heroName": "Thor"
+        },
+        {
+            "heroId": 9,
+            "heroName": "Black Widow"
+        },
+        {
+            "heroId": 10,
+            "heroName": "Doctor Strange"
+        },
+        {
+            "heroId": 11,
+            "heroName": "Hulk"
+        },
+        {
+            "heroId": 12,
+            "heroName": "Hawkeye"
+        },
+        {
+            "heroId": 13,
+            "heroName": "Spider-Woman"
+        },
+        {
+            "heroId": 14,
+            "heroName": "Ant-Man"
+        },
+        {
+            "heroId": 15,
+            "heroName": "Wasp"
+        },
+        {
+            "heroId": 16,
+            "heroName": "Quicksilver"
+        },
+        {
+            "heroId": 17,
+            "heroName": "Scarlet Witch"
+        },
+        {
+            "heroId": 18,
+            "heroName": "Groot"
+        },
+        {
+            "heroId": 19,
+            "heroName": "Rocket Raccoon"
+        },
+        {
+            "heroId": 20,
+            "heroName": "Star-Lord"
+        },
+        {
+            "heroId": 21,
+            "heroName": "Gamora"
+        },
+        {
+            "heroId": 22,
+            "heroName": "Drax"
+        },
+        {
+            "heroId": 23,
+            "heroName": "Venom"
+        },
+        {
+            "heroId": 24,
+            "heroName": "Spectrum"
+        },
+        {
+            "heroId": 25,
+            "heroName": "Adam Warlock"
+        },
+        {
+            "heroId": 26,
+            "heroName": "Nebula"
+        },
+        {
+            "heroId": 27,
+            "heroName": "War Machine"
+        },
+        {
+            "heroId": 28,
+            "heroName": "Valkyrie"
+        },
+        {
+            "heroId": 29,
+            "heroName": "Vision"
+        }
+    ],
+    "aspects": [
+        "Aggression",
+        "Justice",
+        "Leadership",
+        "Protection"
     ]
 }

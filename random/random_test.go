@@ -72,6 +72,16 @@ func getData() *data.Data {
 				ModularName: "Legions of Hydra",
 			},
 		},
+		Heroes: []data.Hero{
+			{
+				HeroId:   1,
+				HeroName: "Spider-Man",
+			},
+			{
+				HeroId:   2,
+				HeroName: "Captain America",
+			},
+		},
 	}
 }
 
@@ -196,6 +206,37 @@ func TestRandomSetup_RandomSets(t *testing.T) {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := tt.ms.RandomSets(tt.args.scheme, tt.args.remainingModulars); !reflect.DeepEqual(got, tt.want) {
 				t.Errorf("RandomSetup.RandomSets() = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}
+
+func TestRandomSetup_RandomHeroes(t *testing.T) {
+	type args struct {
+		numberOfHeroes int
+	}
+	tests := []struct {
+		name string
+		ms   *RandomSetup
+		args args
+		want *[]string
+	}{
+		{
+			name: "Success",
+			ms:   NewRandomSetup(getData(), 1),
+			args: args{
+				numberOfHeroes: 2,
+			},
+			want: &[]string{
+				"Captain America",
+				"Spider-Man",
+			},
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := tt.ms.RandomHeroes(tt.args.numberOfHeroes); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("RandomSetup.RandomHeroes() = %v, want %v", got, tt.want)
 			}
 		})
 	}
