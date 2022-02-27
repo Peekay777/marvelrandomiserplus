@@ -3,6 +3,8 @@ package data
 type Data struct {
 	Schemes  []Scheme  `json:"schemes"`
 	Modulars []Modular `json:"modulars"`
+	Heroes   []Hero    `json:"heroes"`
+	Aspects  []string  `json:"aspects"`
 }
 
 type Scheme struct {
@@ -17,4 +19,9 @@ type Scheme struct {
 type Modular struct {
 	ModularId   int    `json:"modularId"`
 	ModularName string `json:"modularName"`
+}
+
+type Hero struct {
+	HeroId   int    `json:"heroId"`
+	HeroName string `json:"heroName"`
 }

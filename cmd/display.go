@@ -28,7 +28,7 @@ type Response struct {
 	RandomSets []string
 }
 
-func ShowResults(scheme *data.Scheme, randomSets []string) {
+func ShowResults(scheme *data.Scheme, randomSets []string, randomHeroes []string) {
 	sets := []string{}
 	sets = append(sets, scheme.VillainSet)
 	sets = append(sets, scheme.Required...)
@@ -36,6 +36,7 @@ func ShowResults(scheme *data.Scheme, randomSets []string) {
 	fmt.Println("Scheme Name: ", scheme.SchemeName)
 	fmt.Println("Sets: ", utils.PrintArr(sets))
 	fmt.Println("Random sets: ", utils.PrintArr(randomSets))
+	fmt.Println("Heroes: ", utils.PrintArr(randomHeroes))
 	fmt.Println("Press enter to finsh...")
 	fmt.Scanln()
 }

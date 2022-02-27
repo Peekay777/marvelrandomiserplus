@@ -12,6 +12,7 @@ type Randoms interface {
 	RandomScheme() (*data.Scheme, error)
 	RemainingModulars(scheme *data.Scheme) []data.Modular
 	RandomSets(scheme *data.Scheme, remainingModulars []data.Modular) *[]string
+	RandomHeroes(numberOfHeroes int) *[]string
 }
 
 type RandomSetup struct {
@@ -54,4 +55,15 @@ func (ms *RandomSetup) RandomSets(scheme *data.Scheme, remainingModulars []data.
 		remainingModulars = append(remainingModulars[:rndModularIdx], remainingModulars[rndModularIdx+1:]...)
 	}
 	return &randomSets
+}
+
+func (ms *RandomSetup) RandomHeroes(numberOfHeroes int) *[]string {
+	var randomHeroes []string
+	remaindingHeroes := ms.data.Heroes
+	for i := 0; i < int(numberOfHeroes); i++ {
+		rndHeroIdx := rand.Intn(len(remaindingHeroes))
+		randomHeroes = append(randomHeroes, remaindingHeroes[rndHeroIdx].HeroName)
+		remaindingHeroes = append(remaindingHeroes[:rndHeroIdx], remaindingHeroes[rndHeroIdx+1:]...)
+	}
+	return &randomHeroes
 }
