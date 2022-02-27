@@ -13,3 +13,12 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# icon file 
+*.ico
+
+# windows shortcut
+*.lnk
+
+# linux executable
+marvelrandomiserplus

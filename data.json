@@ -1,0 +1,404 @@
+{
+    "schemes": [
+        {
+            "schemeId": 1,
+            "schemeName": "The Break-In!",
+            "villain": "Rhino",
+            "villainSet": "Rhino",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Bomb Scare"
+            ]
+        },
+        {
+            "schemeId": 2,
+            "schemeName": "Underground Distribution",
+            "villain": "Klaw",
+            "villainSet": "Klaw",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Masters of Evil"
+            ]
+        },
+        {
+            "schemeId": 3,
+            "schemeName": "The Crimson Cowl",
+            "villain": "Ultron",
+            "villainSet": "Ultron",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Under Attack"
+            ]
+        },
+        {
+            "schemeId": 4,
+            "schemeName": "Hostile Takeover",
+            "villain": "The Green Goblin",
+            "villainSet": "Mutagen Formula",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Goblin Gimmicks"
+            ]
+        },
+        {
+            "schemeId": 5,
+            "schemeName": "Unleashing the Mutagen",
+            "villain": "The Green Goblin",
+            "villainSet": "Risky Business",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Goblin Gimmicks"
+            ]
+        },
+        {
+            "schemeId": 6,
+            "schemeName": "Attack on Mount Athena",
+            "villain": "Crossbones",
+            "villainSet": "Crossbones",
+            "required": [
+                "Experimental Weapons",
+                "Standard"
+            ],
+            "recommended": [
+                "Hydra Assault",
+                "Weapon Master",
+                "Legions of Hydra"
+            ]
+        },
+        {
+            "schemeId": 7,
+            "schemeName": "None Shall Pass",
+            "villain": "Absorbing Man",
+            "villainSet": "Absorbing Man",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Hydra Patrol"
+            ]
+        },
+        {
+            "schemeId": 8,
+            "schemeName": "Hunting Down Heroes",
+            "villain": "Taskmaster",
+            "villainSet": "Taskmaster",
+            "required": [
+                "Hydra Patrol",
+                "Standard"
+            ],
+            "recommended": [
+                "Weapon Master"
+            ]
+        },
+        {
+            "schemeId": 9,
+            "schemeName": "The Island of Dr. Zola",
+            "villain": "Zola",
+            "villainSet": "Zola",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Under Attack"
+            ]
+        },
+        {
+            "schemeId": 10,
+            "schemeName": "The Rise of Red Skull",
+            "villain": "Red Skull",
+            "villainSet": "Red Skull",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Hydra Assault",
+                "Hydra Patrol"
+            ]
+        },
+        {
+            "schemeId": 11,
+            "schemeName": "Kang's Arrival",
+            "villain": "Kang",
+            "villainSet": "Kang",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Temporal"
+            ]
+        },
+        {
+            "schemeId": 12,
+            "schemeName": "Terrestrial Invasion",
+            "villain": "Drang",
+            "villainSet": "Brotherhood of Badoon",
+            "required": [
+                "Ship Command",
+                "Standard"
+            ],
+            "recommended": [
+                "Band of Badoon"
+            ]
+        },
+        {
+            "schemeId": 13,
+            "schemeName": "The Grand Collection",
+            "villain": "Collector",
+            "villainSet": "Infiltrate the Museum",
+            "required": [
+                "Galatic Artifacts",
+                "Standard"
+            ],
+            "recommended": [
+                "Menageries Medley"
+            ]
+        },
+        {
+            "schemeId": 14,
+            "schemeName": "The Missing Mailano",
+            "villain": "Collector",
+            "villainSet": "Escape the Museum",
+            "required": [
+                "Galatic Artifacts",
+                "Ship Command",
+                "Standard"
+            ],
+            "recommended": [
+                "Menageries Medley"
+            ]
+        },
+        {
+            "schemeId": 15,
+            "schemeName": "The Art of Evasion",
+            "villain": "Nebula",
+            "villainSet": "Nebula",
+            "required": [
+                "Power Stone",
+                "Ship Command",
+                "Standard"
+            ],
+            "recommended": [
+                "Space Pirates"
+            ]
+        },
+        {
+            "schemeId": 16,
+            "schemeName": "Interception Imminent",
+            "villain": "Ronan",
+            "villainSet": "Ronan the Accuser",
+            "required": [
+                "Power Stone",
+                "Ship Command",
+                "Standard"
+            ],
+            "recommended": [
+                "Kree Militants"
+            ]
+        },
+        {
+            "schemeId": 17,
+            "schemeName": "Attack on Knowhere",
+            "villain": "Ebony Maw",
+            "villainSet": "Ebony Maw",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Armies of Titan",
+                "Black Order"
+            ]
+        },
+        {
+            "schemeId": 18,
+            "schemeName": "Under Siege",
+            "villain": "Proxima Midnight and Corvus Glaive",
+            "villainSet": "Tower Defence",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Armies of Titan"
+            ]
+        },
+        {
+            "schemeId": 19,
+            "schemeName": "The Infinity Stones",
+            "villain": "Thanos",
+            "villainSet": "Thanos",
+            "required": [
+                "Standard",
+                "Infinity Gauntlets"
+            ],
+            "recommended": [
+                "Black Order",
+                "Children of Thanos"
+            ]
+        },
+        {
+            "schemeId": 20,
+            "schemeName": "Odin's Torment",
+            "villain": "Hela",
+            "villainSet": "Hela",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Legions of Hel",
+                "Frost Giants"
+            ]
+        },
+        {
+            "schemeId": 21,
+            "schemeName": "All Hail King Loki",
+            "villain": "Loki",
+            "villainSet": "Loki",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Frost Giants",
+                "Enchantress"
+            ]
+        }
+    ],
+    "modulars": [
+        {
+            "modularId": 0,
+            "modularName": "Standard"
+        },
+        {
+            "modularId": 1,
+            "modularName": "Bomb Scare"
+        },
+        {
+            "modularId": 2,
+            "modularName": "Masters of Evil"
+        },
+        {
+            "modularId": 3,
+            "modularName": "Under Attack"
+        },
+        {
+            "modularId": 4,
+            "modularName": "Goblin Gimmicks"
+        },
+        {
+            "modularId": 5,
+            "modularName": "Experimental Weapons"
+        },
+        {
+            "modularId": 6,
+            "modularName": "Hydra Assault"
+        },
+        {
+            "modularId": 7,
+            "modularName": "Weapon Master"
+        },
+        {
+            "modularId": 8,
+            "modularName": "Legions of Hydra"
+        },
+        {
+            "modularId": 9,
+            "modularName": "Hydra Patrol"
+        },
+        {
+            "modularId": 10,
+            "modularName": "Temporal"
+        },
+        {
+            "modularId": 11,
+            "modularName": "Ship Command"
+        },
+        {
+            "modularId": 12,
+            "modularName": "Band of Badoon"
+        },
+        {
+            "modularId": 13,
+            "modularName": "Galatic Artifacts"
+        },
+        {
+            "modularId": 14,
+            "modularName": "Menageries Medley"
+        },
+        {
+            "modularId": 15,
+            "modularName": "Power Stone"
+        },
+        {
+            "modularId": 16,
+            "modularName": "Space Pirates"
+        },
+        {
+            "modularId": 17,
+            "modularName": "Kree Militants"
+        },
+        {
+            "modularId": 18,
+            "modularName": "The Doomsday Chair"
+        },
+        {
+            "modularId": 19,
+            "modularName": "A Mess of Things"
+        },
+        {
+            "modularId": 20,
+            "modularName": "Power Drain"
+        },
+        {
+            "modularId": 21,
+            "modularName": "Running Interference"
+        },
+        {
+            "modularId": 22,
+            "modularName": "Kree Fanatic"
+        },
+        {
+            "modularId": 23,
+            "modularName": "Anachronauts"
+        },
+        {
+            "modularId": 24,
+            "modularName": "Master of Time"
+        },
+        {
+            "modularId": 25,
+            "modularName": "Armies of Titan"
+        },
+        {
+            "modularId": 26,
+            "modularName": "Black Order"
+        },
+        {
+            "modularId": 27,
+            "modularName": "Children of Thanos"
+        },
+        {
+            "modularId": 28,
+            "modularName": "Legions of Hel"
+        },
+        {
+            "modularId": 29,
+            "modularName": "Frost Giants"
+        },
+        {
+            "modularId": 30,
+            "modularName": "Enchantress"
+        },
+        {
+            "modularId": 31,
+            "modularName": "Infinity Gauntlets"
+        }
+    ]
+}
