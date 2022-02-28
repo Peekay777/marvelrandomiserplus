@@ -22,6 +22,7 @@ type Modular struct {
 }
 
 type Hero struct {
-	HeroId   int    `json:"heroId"`
-	HeroName string `json:"heroName"`
+	HeroId     int    `json:"heroId"`
+	HeroName   string `json:"heroName"`
+	HeroAspect int    `json:"aspect"`
 }

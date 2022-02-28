@@ -74,13 +74,21 @@ func getData() *data.Data {
 		},
 		Heroes: []data.Hero{
 			{
-				HeroId:   1,
-				HeroName: "Spider-Man",
+				HeroId:     1,
+				HeroName:   "Spider-Man",
+				HeroAspect: 1,
 			},
 			{
-				HeroId:   2,
-				HeroName: "Captain America",
+				HeroId:     2,
+				HeroName:   "Spider-Woman",
+				HeroAspect: 2,
 			},
+		},
+		Aspects: []string{
+			"Aggression",
+			"Justice",
+			"Leadership",
+			"Protection",
 		},
 	}
 }
@@ -219,7 +227,7 @@ func TestRandomSetup_RandomHeroes(t *testing.T) {
 		name string
 		ms   *RandomSetup
 		args args
-		want *[]string
+		want *[]Hero
 	}{
 		{
 			name: "Success",
@@ -227,9 +235,15 @@ func TestRandomSetup_RandomHeroes(t *testing.T) {
 			args: args{
 				numberOfHeroes: 2,
 			},
-			want: &[]string{
-				"Captain America",
-				"Spider-Man",
+			want: &[]Hero{
+				{
+					"Spider-Woman",
+					[]string{"Protection", "Leadership"},
+				},
+				{
+					"Spider-Man",
+					[]string{"Justice"},
+				},
 			},
 		},
 	}
