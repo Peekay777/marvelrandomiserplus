@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"com.koutsios/marvelrandomiserplus/data"
+	"com.koutsios/marvelrandomiserplus/random"
 	"com.koutsios/marvelrandomiserplus/utils"
 )
 
@@ -28,7 +29,7 @@ type Response struct {
 	RandomSets []string
 }
 
-func ShowResults(scheme *data.Scheme, randomSets []string, randomHeroes []string) {
+func ShowResults(scheme *data.Scheme, randomSets []string, randomHeroes []random.Hero) {
 	sets := []string{}
 	sets = append(sets, scheme.VillainSet)
 	sets = append(sets, scheme.Required...)
@@ -36,7 +37,9 @@ func ShowResults(scheme *data.Scheme, randomSets []string, randomHeroes []string
 	fmt.Println("Scheme Name: ", scheme.SchemeName)
 	fmt.Println("Sets: ", utils.PrintArr(sets))
 	fmt.Println("Random sets: ", utils.PrintArr(randomSets))
-	fmt.Println("Heroes: ", utils.PrintArr(randomHeroes))
+	for idx, hero := range randomHeroes {
+		fmt.Printf("Hero_%v: %v, Aspects: %v\n", idx+1, hero.HeroName, utils.PrintArr(hero.Aspects))
+	}
 	fmt.Println("Press enter to finsh...")
 	fmt.Scanln()
 }

@@ -404,119 +404,148 @@
     "heroes":[
         {
             "heroId": 1,
-            "heroName": "Spider-Man"
+            "heroName": "Spider-Man",
+            "aspect": 1
         },
         {
             "heroId": 2,
-            "heroName": "Captain Marvel"
+            "heroName": "Captain Marvel",
+            "aspect": 1
         },
         {
             "heroId": 3,
-            "heroName": "She-Hulk"
+            "heroName": "She-Hulk",
+            "aspect": 1
         },
         {
             "heroId": 4,
-            "heroName": "Iron Man"
+            "heroName": "Iron Man",
+            "aspect": 1
         },
         {
             "heroId": 5,
-            "heroName": "Black Panther"
+            "heroName": "Black Panther",
+            "aspect": 1
         },
         {
             "heroId": 6,
-            "heroName": "Captain America"
+            "heroName": "Captain America",
+            "aspect": 1
         },
         {
             "heroId": 7,
-            "heroName": "Ms. Marvel"
+            "heroName": "Ms. Marvel",
+            "aspect": 1
         },
         {
             "heroId": 8,
-            "heroName": "Thor"
+            "heroName": "Thor",
+            "aspect": 1
         },
         {
             "heroId": 9,
-            "heroName": "Black Widow"
+            "heroName": "Black Widow",
+            "aspect": 1
         },
         {
             "heroId": 10,
-            "heroName": "Doctor Strange"
+            "heroName": "Doctor Strange",
+            "aspect": 1
         },
         {
             "heroId": 11,
-            "heroName": "Hulk"
+            "heroName": "Hulk",
+            "aspect": 1
         },
         {
             "heroId": 12,
-            "heroName": "Hawkeye"
+            "heroName": "Hawkeye",
+            "aspect": 1
         },
         {
             "heroId": 13,
-            "heroName": "Spider-Woman"
+            "heroName": "Spider-Woman",
+            "aspect": 2
         },
         {
             "heroId": 14,
-            "heroName": "Ant-Man"
+            "heroName": "Ant-Man",
+            "aspect": 1
         },
         {
             "heroId": 15,
-            "heroName": "Wasp"
+            "heroName": "Wasp",
+            "aspect": 1
         },
         {
             "heroId": 16,
-            "heroName": "Quicksilver"
+            "heroName": "Quicksilver",
+            "aspect": 1
         },
         {
             "heroId": 17,
-            "heroName": "Scarlet Witch"
+            "heroName": "Scarlet Witch",
+            "aspect": 1
         },
         {
             "heroId": 18,
-            "heroName": "Groot"
+            "heroName": "Groot",
+            "aspect": 1
         },
         {
             "heroId": 19,
-            "heroName": "Rocket Raccoon"
+            "heroName": "Rocket Raccoon",
+            "aspect": 1
         },
         {
             "heroId": 20,
-            "heroName": "Star-Lord"
+            "heroName": "Star-Lord",
+            "aspect": 1
         },
         {
             "heroId": 21,
-            "heroName": "Gamora"
+            "heroName": "Gamora",
+            "aspect": 1
         },
         {
             "heroId": 22,
-            "heroName": "Drax"
+            "heroName": "Drax",
+            "aspect": 1
         },
         {
             "heroId": 23,
-            "heroName": "Venom"
+            "heroName": "Venom",
+            "aspect": 1
         },
         {
             "heroId": 24,
-            "heroName": "Spectrum"
+            "heroName": "Spectrum",
+            "aspect": 1
         },
         {
             "heroId": 25,
-            "heroName": "Adam Warlock"
+            "heroName": "Adam Warlock",
+            "aspect": 4
         },
         {
             "heroId": 26,
-            "heroName": "Nebula"
+            "heroName": "Nebula",
+            "aspect": 1
         },
         {
             "heroId": 27,
-            "heroName": "War Machine"
+            "heroName": "War Machine",
+            "aspect": 1
         },
         {
             "heroId": 28,
-            "heroName": "Valkyrie"
+            "heroName": "Valkyrie",
+            "aspect": 1
         },
         {
             "heroId": 29,
-            "heroName": "Vision"
+            "heroName": "Vision",
+            "aspect": 1
         }
     ],
     "aspects": [
