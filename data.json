@@ -269,6 +269,153 @@
                 "Frost Giants",
                 "Enchantress"
             ]
+        },
+        {
+            "schemeId": 22,
+            "schemeName": "Making Connections",
+            "villain": "The Hood",
+            "villainSet": "The Hood",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Streets of Mayhem",
+                "Brothers Grimm",
+                "State of Emergency",
+                "Ransacked Armory",
+                "Beasty Boys",
+                "Mister Hyde",
+                "Sinister Syndicate"
+            ]
+        },
+        {
+            "schemeId": 23,
+            "schemeName": "Hapless Pedestrians",
+            "villain": "Sandman",
+            "villainSet": "Sandman",
+            "required": [
+                "Standard",
+                "City in Chaos"
+            ],
+            "recommended": [
+                "Down to Earth"
+            ]
+        },
+        {
+            "schemeId": 24,
+            "schemeName": "Leave Us Alone!",
+            "villain": "Venom",
+            "villainSet": "Venom",
+            "required": [
+                "Standard",
+                "Symbiotic Strength"
+            ],
+            "recommended": [
+                "Down to Earth"
+            ]
+        },
+        {
+            "schemeId": 25,
+            "schemeName": "Maze of Mirrors",
+            "villain": "Mysterio",
+            "villainSet": "Mysterio",
+            "required": [
+                "Standard",
+                "Personal Nightmare"
+            ],
+            "recommended": [
+                "Whispers of Paranoia"
+            ]
+        },
+        {
+            "schemeId": 26,
+            "schemeName": "Sinister Synchronization",
+            "villain": "Sinister Six",
+            "villainSet": "The Sinister Six",
+            "required": [
+                "Standard",
+                "Personal Nightmare"
+            ],
+            "recommended": [
+                "Whispers of Paranoia"
+            ]
+        },
+        {
+            "schemeId": 27,
+            "schemeName": "Skies Over New York",
+            "villain": "Venom Goblin",
+            "villainSet": "Venom Goblin",
+            "required": [
+                "Standard",
+                "Symbiotic Strength"
+            ],
+            "recommended": [
+                "Goblin Gear"
+            ]
+        },
+        {
+            "schemeId": 28,
+            "schemeName": "Stalked by Sabretooth",
+            "villain": "Sabretooth",
+            "villainSet": "Venom Goblin",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Brotherhood",
+                "Mystique"
+            ]
+        },
+        {
+            "schemeId": 29,
+            "schemeName": "Night of the Sentinels",
+            "villain": "Sentinel",
+            "villainSet": "Project Wideawake",
+            "required": [
+                "Standard",
+                "Zero Tolerance"
+            ],
+            "recommended": [
+                "Sentinels"
+            ]
+        },
+        {
+            "schemeId": 30,
+            "schemeName": "The Sentel Factory",
+            "villain": "Master Mold",
+            "villainSet": "Master Mold",
+            "required": [
+                "Standard",
+                "Sentinels"
+            ],
+            "recommended": [
+                "Zero Tolerance"
+            ]
+        },
+        {
+            "schemeId": 31,
+            "schemeName": "The Brotherhood Strikes!",
+            "villain": "Brotherhood",
+            "villainSet": "Mansion Attack",
+            "required": [
+                "Standard",
+                "Brotherhood"
+            ],
+            "recommended": [
+                "Mystique"
+            ]
+        },
+        {
+            "schemeId": 32,
+            "schemeName": "Asteroid M",
+            "villain": "Magneto",
+            "villainSet": "Magneto",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Acolytes"
+            ]
         }
     ],
     "modulars": [
@@ -399,92 +546,204 @@
         {
             "modularId": 31,
             "modularName": "Infinity Gauntlets"
+        },
+        {
+            "modularId": 32,
+            "modularName": "Streets of Mayhem"
+        },
+        {
+            "modularId": 33,
+            "modularName": "Brothers Grimm"
+        },
+        {
+            "modularId": 34,
+            "modularName": "State of Emergency"
+        },
+        {
+            "modularId": 35,
+            "modularName": "Ransacked Armory"
+        },
+        {
+            "modularId": 36,
+            "modularName": "Beasty Boys"
+        },
+        {
+            "modularId": 37,
+            "modularName": "Mister Hyde"
+        },
+        {
+            "modularId": 38,
+            "modularName": "Sinister Syndicate"
+        },
+        {
+            "modularId": 39,
+            "modularName": "Crossfire's Crew"
+        },
+        {
+            "modularId": 40,
+            "modularName": "Wrecking Crew"
+        },
+        {
+            "modularId": 41,
+            "modularName": "City in Chaos"
+        },
+        {
+            "modularId": 42,
+            "modularName": "Down to Earth"
+        },
+        {
+            "modularId": 43,
+            "modularName": "Goblin Gear"
+        },
+        {
+            "modularId": 44,
+            "modularName": "Guerilla Tactics"
+        },
+        {
+            "modularId": 45,
+            "modularName": "Osborn Tech"
+        },
+        {
+            "modularId": 46,
+            "modularName": "Personal Nightmare"
+        },
+        {
+            "modularId": 47,
+            "modularName": "Sinister Assault"
+        },
+        {
+            "modularId": 48,
+            "modularName": "Symbiotic Strength"
+        },
+        {
+            "modularId": 49,
+            "modularName": "Whispers of Paranoia"
+        },
+        {
+            "modularId": 50,
+            "modularName": "Zzzax"
+        },
+        {
+            "modularId": 51,
+            "modularName": "Armadillo"
+        },
+        {
+            "modularId": 52,
+            "modularName": "The Inheritors"
+        },
+        {
+            "modularId": 53,
+            "modularName": "Iron Spider's Sinsiter Six"
+        },
+        {
+            "modularId": 54,
+            "modularName": "Acolytes"
+        },
+        {
+            "modularId": 55,
+            "modularName": "Brotherhood"
+        },
+        {
+            "modularId": 56,
+            "modularName": "Future Past"
+        },
+        {
+            "modularId": 57,
+            "modularName": "Mystique"
+        },
+        {
+            "modularId": 58,
+            "modularName": "Sentinels"
+        },
+        {
+            "modularId": 59,
+            "modularName": "Zero Tolerance"
         }
     ],
     "heroes":[
         {
             "heroId": 1,
-            "heroName": "Spider-Man",
+            "heroName": "Spider-Man (Peter Parker)",
             "aspect": 1
         },
         {
             "heroId": 2,
-            "heroName": "Captain Marvel",
+            "heroName": "Captain Marvel (Carol Danvers)",
             "aspect": 1
         },
         {
             "heroId": 3,
-            "heroName": "She-Hulk",
+            "heroName": "She-Hulk (Jennifer Walters)",
             "aspect": 1
         },
         {
             "heroId": 4,
-            "heroName": "Iron Man",
+            "heroName": "Iron Man (Tony Stark)",
             "aspect": 1
         },
         {
             "heroId": 5,
-            "heroName": "Black Panther",
+            "heroName": "Black Panther (T'Challa)",
             "aspect": 1
         },
         {
             "heroId": 6,
-            "heroName": "Captain America",
+            "heroName": "Captain America (Steve Rogers)",
             "aspect": 1
         },
         {
             "heroId": 7,
-            "heroName": "Ms. Marvel",
+            "heroName": "Ms. Marvel (Kamala Khan)",
             "aspect": 1
         },
         {
             "heroId": 8,
-            "heroName": "Thor",
+            "heroName": "Thor (Odinson)",
             "aspect": 1
         },
         {
             "heroId": 9,
-            "heroName": "Black Widow",
+            "heroName": "Black Widow (Natasha Romanoff)",
             "aspect": 1
         },
         {
             "heroId": 10,
-            "heroName": "Doctor Strange",
+            "heroName": "Doctor Strange (Stephen Strange)",
             "aspect": 1
         },
         {
             "heroId": 11,
-            "heroName": "Hulk",
+            "heroName": "Hulk (Bruce Banner)",
             "aspect": 1
         },
         {
             "heroId": 12,
-            "heroName": "Hawkeye",
+            "heroName": "Hawkeye (Clint Barton)",
             "aspect": 1
         },
         {
             "heroId": 13,
-            "heroName": "Spider-Woman",
+            "heroName": "Spider-Woman (Jessica Drew)",
             "aspect": 2
         },
         {
             "heroId": 14,
-            "heroName": "Ant-Man",
+            "heroName": "Ant-Man (Scott Lang)",
             "aspect": 1
         },
         {
             "heroId": 15,
-            "heroName": "Wasp",
+            "heroName": "Wasp (Nadia Van Dyme)",
             "aspect": 1
         },
         {
             "heroId": 16,
-            "heroName": "Quicksilver",
+            "heroName": "Quicksilver (Pietro Maximoff)",
             "aspect": 1
         },
         {
             "heroId": 17,
-            "heroName": "Scarlet Witch",
+            "heroName": "Scarlet Witch (Wanda Maximoff)",
             "aspect": 1
         },
         {
@@ -499,7 +758,7 @@
         },
         {
             "heroId": 20,
-            "heroName": "Star-Lord",
+            "heroName": "Star-Lord (Peter Quill)",
             "aspect": 1
         },
         {
@@ -514,12 +773,12 @@
         },
         {
             "heroId": 23,
-            "heroName": "Venom",
+            "heroName": "Venom (Flash Thompson)",
             "aspect": 1
         },
         {
             "heroId": 24,
-            "heroName": "Spectrum",
+            "heroName": "Spectrum (Monica Rambeau)",
             "aspect": 1
         },
         {
@@ -534,17 +793,67 @@
         },
         {
             "heroId": 27,
-            "heroName": "War Machine",
+            "heroName": "War Machine (James Rhodes)",
             "aspect": 1
         },
         {
             "heroId": 28,
-            "heroName": "Valkyrie",
+            "heroName": "Valkyrie (Brunnhilde)",
             "aspect": 1
         },
         {
             "heroId": 29,
             "heroName": "Vision",
+            "aspect": 1
+        },
+        {
+            "heroId": 30,
+            "heroName": "Ghost-Spider (Gwen Stacey)",
+            "aspect": 1
+        },
+        {
+            "heroId": 31,
+            "heroName": "Spider-Man (Miles Morales)",
+            "aspect": 1
+        },
+        {
+            "heroId": 32,
+            "heroName": "Nova (Sam Alexander)",
+            "aspect": 1
+        },
+        {
+            "heroId": 33,
+            "heroName": "Ironheart (Riri Williams)",
+            "aspect": 1
+        },
+        {
+            "heroId": 34,
+            "heroName": "Spider-Ham (Peter Porker)",
+            "aspect": 1
+        },
+        {
+            "heroId": 35,
+            "heroName": "SP//DR (Peni Parker)",
+            "aspect": 1
+        },
+        {
+            "heroId": 36,
+            "heroName": "Shadow Cat (Kitty Pryde)",
+            "aspect": 1
+        },
+        {
+            "heroId": 37,
+            "heroName": "Colossus (Piotr Rasputin)",
+            "aspect": 1
+        },
+        {
+            "heroId": 38,
+            "heroName": "Cyclops (Scott Summers)",
+            "aspect": 1
+        },
+        {
+            "heroId": 39,
+            "heroName": "Phoenix (Jean Grey)",
             "aspect": 1
         }
     ],
