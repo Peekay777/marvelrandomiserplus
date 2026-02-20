@@ -416,6 +416,183 @@
             "recommended": [
                 "Acolytes"
             ]
+        },
+        {
+            "schemeId": 33,
+            "schemeName": "Melee in the Mojo-seum",
+            "villain": "MaGog",
+            "villainSet": "MaGog",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                ""
+            ]
+        },
+        {
+            "schemeId": 34,
+            "schemeName": "Across the Mojoverse",
+            "villain": "Spiral",
+            "villainSet": "Spiral",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "schemeId": 35,
+            "schemeName": "MojoMania",
+            "villain": "Mojo",
+            "villainSet": "Mojo",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "",
+                ""
+            ]
+        },
+        {
+            "schemeId": 36,
+            "schemeName": "The Unstoppable Juggernaut",
+            "villain": "Juggernaut",
+            "villainSet": "Juggernaut",
+            "required": [
+                "Standard",
+                "Hope Summers"
+            ],
+            "recommended": [
+                "Black Tom Cassidy"
+            ]
+        },
+        {
+            "schemeId": 37,
+            "schemeName": "Knock, Knock",
+            "villain": "Marauders",
+            "villainSet": "Morlock Siege",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Military Grade",
+                "Mutant Slayers"
+            ]
+        },
+        {
+            "schemeId": 38,
+            "schemeName": "Gotta Get Away",
+            "villain": "Marauders",
+            "villainSet": "On The Run",
+            "required": [
+                "Standard",
+                "Mutant Slayers"
+            ],
+            "recommended": [
+                "Military Grade",
+                "Nasty Boys"
+            ]
+        },
+        {
+            "schemeId": 39,
+            "schemeName": "Sinister Intent",
+            "villain": "Mister Sinister",
+            "villainSet": "Mister Sinister",
+            "required": [
+                "Standard",
+                "Hope Summers",
+                "Flight",
+                "Super Strength",
+                "Telepathy"
+            ],
+            "recommended": [
+                "Nasty Boys"
+            ]
+        },
+        {
+            "schemeId": 40,
+            "schemeName": "Uncontrollable Power",
+            "villain": "Stryfe",
+            "villainSet": "Stryfe",
+            "required": [
+                "Standard",
+                "Hope Summers"
+            ],
+            "recommended": [
+                "Extreme Measures",
+                "Mutant Insurrection"
+            ]
+        },
+        {
+            "schemeId": 41,
+            "schemeName": "Hunting Gene Traitors",
+            "villain": "Unus",
+            "villainSet": "Unus",
+            "required": [
+                "Standard",
+                "Infinites"
+            ],
+            "recommended": [
+                "Dystopian Nightmare"
+            ]
+        },
+        {
+            "schemeId": 42,
+            "schemeName": "The Horsemen of the Apocalypse",
+            "villain": "Four Horsemen",
+            "villainSet": "Four Horsemen",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Dystopian Nightmare",
+                "The Hounds"
+            ]
+        },
+        {
+            "schemeId": 43,
+            "schemeName": "The Age of Apocalypse",
+            "villain": "Apocalypse",
+            "villainSet": "Apocalypse",
+            "required": [
+                "Standard",
+                "Prelates"
+            ],
+            "recommended": [
+                "Dark Riders",
+                "Infinites"
+            ]
+        },
+        {
+            "schemeId": 44,
+            "schemeName": "Dark Beast's Bogus Journey",
+            "villain": "Dark Beast",
+            "villainSet": "Dark Beast",
+            "required": [
+                "Standard",
+                "Blue Moon",
+                "Genosha",
+                "Savage Lands"
+            ],
+            "recommended": [
+                "Dystopian Nightmare"
+            ]
+        },
+        {
+            "schemeId": 45,
+            "schemeName": "En Sabah Nur's Pyramid",
+            "villain": "Apocalypse",
+            "villainSet": "En Sabah Nur",
+            "required": [
+                "Standard"
+            ],
+            "recommended": [
+                "Celestrial Tech",
+                "Clan Akkaba"
+            ]
         }
     ],
     "modulars": [
@@ -658,6 +835,138 @@
         {
             "modularId": 59,
             "modularName": "Zero Tolerance"
+        },
+        {
+            "modularId": 60,
+            "modularName": "Deathstrike"
+        },
+        {
+            "modularId": 61,
+            "modularName": "Shadow King"
+        },
+        {
+            "modularId": 62,
+            "modularName": "Crime"
+        },
+        {
+            "modularId": 63,
+            "modularName": "Fantasy"
+        },
+        {
+            "modularId": 64,
+            "modularName": "Horror"
+        },
+        {
+            "modularId": 65,
+            "modularName": "Sci-Fi"
+        },
+        {
+            "modularId": 66,
+            "modularName": "Sitcom"
+        },
+        {
+            "modularId": 67,
+            "modularName": "Western"
+        },
+        {
+            "modularId": 68,
+            "modularName": "Exodus"
+        },
+        {
+            "modularId": 69,
+            "modularName": "Reavers"
+        },
+        {
+            "modularId": 70,
+            "modularName": "Hope Summers"
+        },
+        {
+            "modularId": 71,
+            "modularName": "Black Tom Cassidy"
+        },
+        {
+            "modularId": 72,
+            "modularName": "Mutant Slayers"
+        },
+        {
+            "modularId": 73,
+            "modularName": "Military Grade"
+        },
+        {
+            "modularId": 74,
+            "modularName": "Extreme Measures"
+        },
+        {
+            "modularId": 75,
+            "modularName": "Mutant Insurrection"
+        },
+        {
+            "modularId": 76,
+            "modularName": "Nasty Boys"
+        },
+        {
+            "modularId": 77,
+            "modularName": "Telepathy"
+        },
+        {
+            "modularId": 78,
+            "modularName": "Flight"
+        },
+        {
+            "modularId": 79,
+            "modularName": "Super Strength"
+        },
+        {
+            "modularId": 80,
+            "modularName": "Age of Apocalypse"
+        },
+        {
+            "modularId": 81,
+            "modularName": "Dystopian Nightmare"
+        },
+        {
+            "modularId": 82,
+            "modularName": "Infinites"
+        },
+        {
+            "modularId": 83,
+            "modularName": "Hounds"
+        },
+        {
+            "modularId": 84,
+            "modularName": "Dark Riders"
+        },
+        {
+            "modularId": 85,
+            "modularName": "Savage Land"
+        },
+        {
+            "modularId": 86,
+            "modularName": "Genosha"
+        },
+        {
+            "modularId": 87,
+            "modularName": "Blue Moon"
+        },
+        {
+            "modularId": 88,
+            "modularName": "Clan Akkaba"
+        },
+        {
+            "modularId": 89,
+            "modularName": "Celestrial Tech"
+        },
+        {
+            "modularId": 90,
+            "modularName": "Arcade"
+        },
+        {
+            "modularId": 91,
+            "modularName": "Crazy Gang"
+        },
+        {
+            "modularId": 92,
+            "modularName": "Hellfire"
         }
     ],
     "heroes":[
@@ -855,12 +1164,93 @@
             "heroId": 39,
             "heroName": "Phoenix (Jean Grey)",
             "aspect": 1
+        },
+        {
+            "heroId": 40,
+            "heroName": "Wolverine (Logan)",
+            "aspect": 1
+        },
+        {
+            "heroId": 41,
+            "heroName": "Storm (Ororo Munroe)",
+            "aspect": 1
+        },
+        {
+            "heroId": 42,
+            "heroName": "Gambit (Remy LeBeau)",
+            "aspect": 1
+        },
+        {
+            "heroId": 43,
+            "heroName": "Rogue (Anna Marie)",
+            "aspect": 1
+        },
+        {
+            "heroId": 44,
+            "heroName": "Domino (Neena Thurman)",
+            "aspect": 1
+        },
+        {
+            "heroId": 45,
+            "heroName": "Cable (Nathan Summers)",
+            "aspect": 1
+        },
+        {
+            "heroId": 46,
+            "heroName": "Psylocke (Betsy Braddock",
+            "aspect": 1
+        },
+        {
+            "heroId": 47,
+            "heroName": "Angel/Archangel (Warren Worthington III)",
+            "aspect": 1
+        },
+        {
+            "heroId": 48,
+            "heroName": "X-23 (Laura Kinney)",
+            "aspect": 1
+        },
+        {
+            "heroId": 49,
+            "heroName": "Deadpool (Wade Wilson)",
+            "aspect": 1
+        },
+        {
+            "heroId": 50,
+            "heroName": "Bishop (Lucas Bishop)",
+            "aspect": 1
+        },
+        {
+            "heroId": 51,
+            "heroName": "Magik (Illyana Rasputin)",
+            "aspect": 1
+        },
+        {
+            "heroId": 52,
+            "heroName": "Iceman (Bobby Drake)",
+            "aspect": 1
+        },
+        {
+            "heroId": 53,
+            "heroName": "Jubilee (Jubilation Lee)",
+            "aspect": 1
+        },
+        {
+            "heroId": 54,
+            "heroName": "Nightcrawler (Kurt Wagner)",
+            "aspect": 1
+        },
+        {
+            "heroId": 55,
+            "heroName": "Magneto (Erik Lehnsherr)",
+            "aspect": 1
         }
     ],
     "aspects": [
         "Aggression",
         "Justice",
         "Leadership",
-        "Protection"
+        "Protection",
+        "'Pool"
     ]
 }
