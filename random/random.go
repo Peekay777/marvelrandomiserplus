@@ -42,8 +42,8 @@ func (ms *RandomSetup) RemainingModulars(scheme *data.Scheme) []data.Modular {
 	var remainingModulars []data.Modular
 	for _, modular := range ms.data.Modulars {
 		foundRequired := utils.IsInSlice(scheme.Required, modular.ModularName)
-		foundRecommended := utils.IsInSlice(scheme.Recommended, modular.ModularName)
-		if foundRequired || foundRecommended {
+		// foundRecommended := utils.IsInSlice(scheme.Recommended, modular.ModularName)
+		if foundRequired /*|| foundRecommended*/ {
 			continue
 		}
 		remainingModulars = append(remainingModulars, modular)
